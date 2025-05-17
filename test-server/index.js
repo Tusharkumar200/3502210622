@@ -2,9 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 4000;
 
-// Helper functions to generate numbers
 
-// Return an array of first N prime numbers
 function getPrimes(n = 10) {
   const primes = [];
   let num = 2;
@@ -22,7 +20,7 @@ function getPrimes(n = 10) {
   return primes;
 }
 
-// Return first N Fibonacci numbers
+
 function getFibonacci(n = 10) {
   const fib = [0, 1];
   while (fib.length < n) {
@@ -31,7 +29,7 @@ function getFibonacci(n = 10) {
   return fib.slice(0, n);
 }
 
-// Return first N even numbers starting from 2
+
 function getEven(n = 10) {
   const evens = [];
   for (let i = 1; evens.length < n; i++) {
@@ -40,7 +38,7 @@ function getEven(n = 10) {
   return evens;
 }
 
-// Return N random numbers between 1 and 100
+
 function getRandom(n = 10) {
   const randoms = [];
   for (let i = 0; i < n; i++) {
@@ -49,7 +47,7 @@ function getRandom(n = 10) {
   return randoms;
 }
 
-// Routes
+
 app.get('/primes', (req, res) => {
   res.json({ numbers: getPrimes(10) });
 });
