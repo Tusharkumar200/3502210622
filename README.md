@@ -1,3 +1,9 @@
+    name:"Tushar Kumar",
+    regNo:"3502210622",
+    email:"tusharnwd2003@gmail.com",
+    mobNo:"8102955902"
+    collage:"AVIT",
+
 Screenshot  of all the routes
 
 ![Screenshot (66)](https://github.com/user-attachments/assets/06acf7fa-f7d4-4eda-8856-2a375585a0c9)
